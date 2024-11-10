@@ -12,13 +12,13 @@ A Python package for tagging anime-style images using WaifuDiffusion models. Thi
 
 ## Installation
 
-```
+```bash
 pip install waifutagger
 ```
 
 ## Quick Start
 
-```
+```python
 from waifutagger import WaifuTagger
 
 # Initialize tagger
@@ -51,7 +51,7 @@ print(tags_string)  # "rating_general, 1girl, solo, long_hair, ..."
 
 ### Batch Processing
 
-```
+```python
 # Process multiple images
 image_paths = ["img1.jpg", "img2.jpg", "img3.jpg"]
 for img_path in image_paths:
@@ -63,7 +63,7 @@ for img_path in image_paths:
 
 ### Custom Thresholds
 
-```
+```python
 # Use custom thresholds
 results = tagger.predict(
     "image.jpg",
@@ -74,7 +74,7 @@ results = tagger.predict(
 
 ### MCut Thresholding
 
-```
+```python
 # Use automatic threshold adjustment
 results = tagger.predict(
     "image.jpg",
