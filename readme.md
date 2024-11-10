@@ -1,10 +1,10 @@
 # WaifuTagger
 
-A Python package for tagging anime-style images using WaifuDiffusion models. This package provides a simple interface to detect and tag various elements in anime/manga-style illustrations.
+A Python package for tagging anime-style images using SmilingWolf models. This package provides a simple interface to detect and tag various elements in anime/manga-style illustrations.
 
 ## Features
 
-- Support for multiple WaifuDiffusion models
+- Support for multiple SmilingWolf models
 - Simple and batch image processing
 - Flexible tag output formats
 - Automatic threshold adjustment (MCut)
